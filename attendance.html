@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>الحضور والغياب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>اجتماع مارجرجي الروماني لخدمة ابتدائي</h1>
+    <h4>تسجيل الحضور</h4>
+    <form id="attendanceForm">
+        <select id="studentSelect"></select>
+        <button type="submit">تسجيل حضور</button>
+    </form>
+    <h2>الحاضرون اليوم</h2>
+    <ul id="presentList"></ul>
+    <h2>الغائبون اليوم</h2>
+    <ul id="absentList"></ul>
+    <button onclick="exportToExcel()">حفظ في Excel</button>
+    <a class="btn" href="index.html">الرجوع لتسجيل الطلاب</a>
+    <footer>
+        <p>جميع الحقوق محفوظة EL-FADY; 2025</p>
+        <p>تصميم وتطوير: فادي ميلاد حنين</p>
+        <p>للاستفسارات، يرجى التواصل عبر البريد الإلكتروني: fadyfetos@gmail.com
+    </footer>
+    <script src="attendance.js"></script>
+</body>
+
+</html>

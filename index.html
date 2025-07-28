@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>تسجيل الطلاب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>اجتماع مارجرجي الروماني لخدمة ابتدائي</h1>
+    <h4>تسجيل الطلاب</h4>
+    <form id="registerForm">
+        <input type="text" placeholder="الاسم" id="name" required>
+        <input type="number" placeholder="العمر" id="age" required>
+        <input type="text" placeholder="السنة الدراسية" id="grade" required>
+        <input type="text" placeholder="رقم الهاتف" id="phone" required>
+        <input type="text" placeholder="العنوان" id="address" required>
+        <button type="submit">تسجيل</button>
+    </form>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>العمر</th>
+                <th>السنة الدراسية</th>
+                <th>رقم الهاتف</th>
+                <th>العنوان</th>
+                <th>تعديل</th>
+                <th>حذف</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <a class="btn" href="attendance.html">الذهاب إلى صفحة الحضور</a>
+    <footer>
+        <p>جميع الحقوق محفوظة EL-FADY; 2025</p>
+        <p>تصميم وتطوير: فادي ميلاد حنين</p>
+        <p>للاستفسارات، يرجى التواصل عبر البريد الإلكتروني: fadyfetos@gmail.com
+    </footer>
+    <script src="register.js"></script>
+</body>
+
+</html>
